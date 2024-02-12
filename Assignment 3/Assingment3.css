@@ -1,0 +1,28 @@
+.header {
+    color: red;
+    background-color: yellow;
+}
+
+  
+  a { 
+    color:red; 
+  }
+a:link {
+    color: red; 
+  }
+  
+  a:visited {
+    color: green;
+  }
+  a:hover {
+    color: #ffff00;
+  }   
+  .spanstyle {
+    color:#e61e1e;
+  }
+  #classes200 {
+    color:purple
+  }
+  #classes300 {
+    color:#421500;
+  }
