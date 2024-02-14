@@ -1,0 +1,56 @@
+a {
+    color: green;
+
+  }
+  
+  a:link {
+    color: green;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #0000ff;
+  }
+  
+  a:active {
+    color: red;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }               
+#heading {
+    background-color:#46A0FC ;
+}
+.firstheader {
+    color:aliceblue
+}
+.img {
+    padding: 10px 0px 0px 0px;
+}
+#secondheading {
+    color:blue;
+}
+.spanstyle {
+    color: orange; 
+}
+#thirdheading {
+    background-color: yellow;
+}
+.red {
+    color:red;
+}
+#fourthheading {
+    background-color: green;
+    color: yellow;
+}
+.art {
+    background-color: lightgreen;
+}
+#doctorsdaughter {
+    background-color: yellow;
+}
+.imthedoctor {
+    color:blue
+}
