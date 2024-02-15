@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(penguin.png);
+    background-repeat: no-repeat;
+}
+.header {
+    color:orange; 
+    font-style: italic;
+    font-weight: 100;
+}
+.img {
+  border: 20px solid #000000;
+  padding: 10px;
+  background-color: yellow;
+}
+.center {
+text-align: center;
+}
+.justify {
+  text-align: justify;
+}
+  a { 
+    color:red; 
+  }
+a:link {
+    color: red; 
+  }
+  
+  a:visited {
+    color: green;
+  }
+  a:hover {
+    color: #ffff00;
+  }   
+  .spanstyle {
+    color:#e61e1e;
+  }
+  #classes200 {
+    color:purple
+  }
+  #classes300 {
+    color:#421500;
+  }
