@@ -1,0 +1,76 @@
+body {
+    background-image: url(a5bg.png);
+}
+nav ul {
+    list-style-type: none; /* none, disc, circle, square */
+    margin:0;
+    padding: 0;
+
+}
+nav li {
+  margin: 10px;
+  width: 150px;
+  background-color: blue;
+  display: inline-block;
+}
+nav li a {
+    color:white;
+    display: block;
+    padding: 10px;
+    display: block;
+}
+nav li a:hover {
+    background-color: rgb(76, 76, 248);
+
+}
+main a:link {
+    color:blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+main a:hover {
+    color:red;
+    text-decoration: underline;
+}
+main a:visited {
+    color:blue;
+    text-decoration: none;
+}
+
+
+.h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid black;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+main {
+    background-color: white;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    
+}
+.footer {
+    border: white solid 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+
+p {
+text-align: justify;
+padding-right: 20px;
+}
