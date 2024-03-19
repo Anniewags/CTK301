@@ -1,0 +1,160 @@
+body {
+    background-color: rgb(185, 185, 185);
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 5px solid #0044ff;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+header {
+    grid-column: span 12;
+    background-color: blue;
+    background-image: linear-gradient(to bottom, #1f75f6, #0782f7, #0a8ef7, #2399f5, #3ba3f2);
+
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: normal;
+padding-left: 20px;
+}
+h1 a {
+text-decoration: none;
+color: white
+}
+
+nav {
+    grid-column: span 12;
+    
+}
+nav ul {
+    list-style-type: none; /* none, disc, circle, square */
+    margin:0;
+    padding: 0; 
+    
+
+}
+
+nav li {
+  margin: 10px;
+  width: 150px;
+  background-color: blue;
+  background-image: linear-gradient(to bottom, #1f75f6, #0782f7, #0a8ef7, #2399f5, #8fc7f1);
+  display: inline-block;
+  
+ 
+  
+}
+nav li a {
+    color:white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
+}
+nav li a:hover {
+    width: 130px;
+    font-weight: bold;
+    background-color: blueviolet;
+}
+#Welcome {
+    grid-column: span 3;
+   background-color: #6fc0fd;
+   padding-top: 10px;
+   text-align: justify;
+   
+}
+footer {
+grid-column: span 12;
+background-color: #ff0000;
+padding-top: 10px;
+}
+
+h2 {
+    color:#0561ac;
+    border-bottom: #0561ac solid 3px;
+    margin-right: 100px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+.wel {
+    margin-left: 20px;
+}
+.first {
+    text-align: justify;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px
+}
+main a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff0000;
+    padding-left: 10px;
+}
+main a:hover {
+    text-decoration: underline;
+}
+.barbie {
+    width: 300px;
+}
+.ken {
+    width: 300px;
+}
+.allan {
+    width: 300px;
+}
+.barbies 
+{ border:#0044ff solid 2px;
+    float: left;
+    margin:10px;
+}
+main 
+{grid-column: span 8;
+padding-left: 10px;}
+
+#side {
+    grid-column: span 4;
+    font-weight: bold;
+    background-color: #05aca4;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Oppie {
+    float: right;
+    width: 250px;
+    border: #0044ff solid 3px;
+    margin: 10px;
+
+}
+#MargoRobbie {
+    grid-column: span 4;
+}
+#Gossling {
+    grid-column: span 4;
+}
+#thebestcharacter {
+    grid-column: span 4;
+}
+
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff0000;
+    padding-left: 10px;
+}
+a:hover {
+    text-decoration: underline; }
