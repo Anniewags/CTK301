@@ -129,3 +129,8 @@ footer p {
 section p {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+#myCarousel {
+  grid-column: span 12;
+  }
+  

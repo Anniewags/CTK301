@@ -8,7 +8,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">	
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-</head>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
 </head>
 <body>
 	<div id="wrapper">
@@ -26,17 +27,36 @@
 	<main>
 	<h2>Performing</h2>
 	<p>I’m a classically trained Soprano for many years. Previously I studied under Emily Elsworth in Anima GECC and Lee Kesslemen in the College of DuPage chamber singers. I'm also an Equity member and have been since 2013. I have been acting for many years as well and got training from Joe Barrasso from MBM talent and Roberta James from Wheaton Warrnville South high school.
-Currently I sing in Illinois State University’s Belle Voix. I also sing with Waymen AME church and DuPage AME church. My most recent role was in Illinois State’s production of Your a Good Man Charlie Brown as a swing for Schroeder, Lucy and Charlie Brown. </p>
-	<h2>Career Highlights</h2>
+Currently I sing in Illinois State University’s Belle Voix. I also sing with Waymen AME church and DuPage AME church. My most recent role was in Illinois State’s production of Your a Good Man Charlie Brown as a swing for Schroeder, Lucy and Charlie Brown. </p>	
+<h2>Career Highlights</h2>
 	<ol>
 		<li> Sheperdess-Tosca at the Lyric Opera </li>
 		<li>Electric Skate- SpongeBob the Musical College of DuPage </li>
 		<li> Betty Paris- Crucible Wheaton Warrenville South </li>
-	</ol>
+</ol>
+</main>
+<h2> Showcase</h2>
+<div id="myCarousel" class="f-carousel">
+    <div class="f-carousel__slide"><video width="640" height="360" autoplay controls loop preload="auto" >
+		<source src="IMG_1718 (2).MOV" type="video/mp4">
+	  </video></div>
+    <div class="f-carousel__slide"><video width="640" height="360" autoplay controls loop preload="auto" >
+		<source src="IMG_1716.MOV" type="video/mp4">
+	  </video></div>
+	  <div class="f-carousel__slide"><video width="640" height="360" autoplay controls loop preload="auto" >
+		<source src="IMG_8521.MOV" type="video/mp4">
+	  </video></div>
+</div>
+	<script>
+		const container = document.getElementById("myCarousel");
+		const options = { infinite: false };
+		new Carousel(container, options);
+	</script>
 
 	<footer>
 		<a href="https://www.linkedin.com/in/annie-wagner-764a37249">Linkedin</a>
 		<p>awagsproductions@gmail.com</p>
 	</footer>
+
 </body>
 </html>
