@@ -6,7 +6,10 @@
 	<link href="Blank1200px.css" rel="stylesheet" type="text/css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
 <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
@@ -22,33 +25,44 @@
 			<li><a href="Performance.html"><i class="bi bi-ticket-perforated-fill"></i></a></li>
 		<li><a href="Audio.html"><i class="bi bi-music-note-beamed"></i></a></li>
 		<li><a href="Video.html"><i class="bi bi-play-btn-fill"></i></a></li>
+		<li><a href="Contact.html"><i class="bi bi-chat-left-dots"></i></a></li>
 			</ul>
 		</nav>
 	<main>
 	<h2> Music </h2>
-<p> I have experience with Garageband and Bitwig. making songs. Typically I write alot songs with alot more acoustic instrumentation but I have experience using synthesizers like TAL noise maker and Vital. I have had my music featured at Illinois State’s Reggie con.  </p>
+<p> I have experience with Garageband and Bitwig. making songs. Typically I write alot songs with alot more acoustic instrumentation but I have experience using synthesizers like TAL noise maker and Vital. </p>
 
 <audio controls autobuffer autoplay>
-		<source src="quote 2024-04-11 1856.wav" type="audio/mpeg">
+		<source src="quote 2024-04-11 1856.wav" type="audio/wav">
 	  </audio>
 	<h2> Audio </h2>
 	<img class=screenshot src="Screenshot (28).png" alt="Screenshot from Audio Project">
-	<p id="Audiop"> Using Adobe Audition I have made many camplex projectcts for school. I have experince recording, Eq, mand mastering. My favorite project include my Audio Story project where I told a story using nothing but audio signals. </p>
+	<div id="SFXCarousel" class="f-carousel">
+		<div class="f-carousel__slide"><audio controls autobuffer autoplay>
+		<source src="Audio Story Annie Wagner_mixdown.wav" type="audio/wav">
+	  </audio></div>
+		<div class="f-carousel__slide"><audio controls autobuffer autoplay>
+	<source src="SFX Narrative Project 2 Annie Wagner _mixdown.wav" type="audio/wav">
+</audio></div>
+		<div class="f-carousel__slide"><img src="water.jpg"></div>
+	</div>
 
-	<audio controls autobuffer autoplay>
-		<source src="Audio Story Annie Wagner_mixdown.wav" type="audio/mpeg">
-	  </audio>
+	
 <p>This was my Audio Story project where I told a story of a girl getting a demon casted out.</p>
 
-<audio controls autobuffer autoplay>
-	<source src="SFX Narrative Project 2 Annie Wagner _mixdown.wav" type="audio/mpeg">
-</audio>
+
 <p> This was the story that I made using nothing but sound effects. It is based off of the Actual Canibal Shia Lebouf song that went viral. WARNING GRAPHIC. </p>
 	</main>
+	
 
 	<footer>
 		<a href="https://www.linkedin.com/in/annie-wagner-764a37249">Linkedin</a>
-		<p>awagsproductions@gmail.com</p>
+		<p><a href="awagsproductions@gmail.com">Email me</a></p>
 	</footer>
+	<script>
+		const container = document.getElementById("myCarousel");
+		const options = { infinite: false };
+		new Carousel(container, options);
+	</script>
 </body>
 </html>
