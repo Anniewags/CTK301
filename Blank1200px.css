@@ -131,6 +131,50 @@ section p {
 }
 
 #myCarousel {
-  grid-column: span 12;
+ grid-column: span 12;
+ width: 640px;
+ margin: 0 auto;
   }
+
+  .ChristmasCarol {
+    width: 350px;
+    position: absolute; left: 0px;
+    margin-left: 70px; 
+    margin-top: 200px;
+}
+.SpongeBob {
+  width: 350px;
+  position: absolute; right: 65px; 
   
+}
+.Tosca {
+width: 250px;
+position: absolute; right: 65px; 
+}
+.Crucible {
+  width: 350px; 
+  position: absolute; left: 65px;
+
+}
+.MLK {
+  width: 250px;
+  position: absolute; right: 65px; 
+}
+.Zelner {
+  width: 350px;
+  position: absolute; left: 65px; 
+}
+.Choir {
+  width: 350px;
+  position: absolute; left: 65px;
+}
+
+.Church {
+  width: 250px;
+  position: absolute; right: 65px; 
+}
+#SFXCarousel {
+  grid-column: span 12;
+  width: 640px;
+  margin: 0 auto;
+   }
