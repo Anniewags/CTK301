@@ -32,37 +32,59 @@
 	<h2> Music </h2>
 <p> I have experience with Garageband and Bitwig. making songs. Typically I write alot songs with alot more acoustic instrumentation but I have experience using synthesizers like TAL noise maker and Vital. </p>
 
-<audio controls autobuffer autoplay>
+<div id="MusicCarousel" class="f-carousel">
+    <div class="f-carousel__slide"><audio controls autobuffer autoplay>
 		<source src="quote 2024-04-11 1856.wav" type="audio/wav">
-	  </audio>
+	  </audio></div>
+    <div class="f-carousel__slide"><iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1212249329/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://awags.bandcamp.com/track/latin-vibe-2">Latin Vibe by Awags</a></iframe></div>
+    <div class="f-carousel__slide"><iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=2735576333/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://awags.bandcamp.com/track/dads-song-20">Dads song 2.0 by Awags</a></iframe></div>
+	<div class="f-carousel__slide"><iframe width="100%" height="120px" src="https://www.youtube.com/embed/wwV-tiRbNGw?si=4weOhyAe0-Rcj46Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+	<div class="f-carousel__slide"><iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=3957090335/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://awags.bandcamp.com/track/country-party-20">Country Party 2.0 by Awags</a></iframe></div>
+</div>
+
+
+
+	  
+	  
 	<h2> Audio </h2>
-	<img class=screenshot src="Screenshot (28).png" alt="Screenshot from Audio Project">
+	<p> I have experience sound desgining using Adobe Auditon. Most of the projects I made for school involve telling story </p>
+
 	<div id="SFXCarousel" class="f-carousel">
 		<div class="f-carousel__slide"><audio controls autobuffer autoplay>
-		<source src="Audio Story Annie Wagner_mixdown.wav" type="audio/wav">
-	  </audio></div>
+			<source src="Audio Story Annie Wagner_mixdown.wav" type="audio/wav">
+	 	 </audio></div>
+
 		<div class="f-carousel__slide"><audio controls autobuffer autoplay>
-	<source src="SFX Narrative Project 2 Annie Wagner _mixdown.wav" type="audio/wav">
-</audio></div>
-		<div class="f-carousel__slide"><img src="water.jpg"></div>
+			<source src="SFX Narriative Project Annie Wagner _mixdown.wav" type="audio/wav"></div>
+
+		<div class="f-carousel__slide"><audio controls autobuffer autoplay>
+				<source src="SFX Narrative Project 2 Annie Wagner _mixdown.wav" type="audio/wav"></div>
+
+	<div class="f-carousel__slide">
+					<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=3159148447/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://awags.bandcamp.com/track/tea-break-in">Tea Break In by Awags</a></iframe></div>
+		
+	<div class="f-carousel__slide"><audio controls autobuffer autoplay>
+		<source src="Underscore Project Annie Wagner _01_mixdown.wav" type="audio/wav"></div>
+
+				
 	</div>
-
+		
 	
-<p>This was my Audio Story project where I told a story of a girl getting a demon casted out.</p>
-
-
-<p> This was the story that I made using nothing but sound effects. It is based off of the Actual Canibal Shia Lebouf song that went viral. WARNING GRAPHIC. </p>
+</div>
 	</main>
-	
-
 	<footer>
 		<a href="https://www.linkedin.com/in/annie-wagner-764a37249">Linkedin</a>
 		<p><a href="awagsproductions@gmail.com">Email me</a></p>
 	</footer>
 	<script>
-		const container = document.getElementById("myCarousel");
+		const container = document.getElementById("SFXCarousel");
 		const options = { infinite: false };
 		new Carousel(container, options);
+
+		const container2 = document.getElementById("MusicCarousel");
+    const options2 = { infinite: false };
+    new Carousel(container2, options2);
 	</script>
+	
 </body>
 </html>
