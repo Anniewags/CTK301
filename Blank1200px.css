@@ -131,39 +131,44 @@ section p {
   }
 
   .ChristmasCarol {
-    width: 350px;
-    position: absolute; left: 0px;
-    margin-left: 70px; 
-    margin-top: 200px;
+    width: 250px;
+  position: absolute;
+  left: 100px;
+  margin-top: 200px;
 }
 .SpongeBob {
-  width: 350px;
-  position: absolute; right: 65px; 
+  width: 250px;
+  position: absolute;
+  right: 100px;
   
 }
 .Tosca {
-width: 250px;
-position: absolute; right: 65px; 
+  width: 250px;
+  position: absolute;
+  right: 100px;
 }
 .Crucible {
-  width: 350px; 
-  position: absolute; left: 65px;
+  width: 250px;
+  position: absolute;
+  left: 100px;
 
 }
 .MLK {
   width: 250px;
-  position: absolute; right: 65px; 
+  position: absolute;
+  right: 100px;
 }
 
 .Choir {
-  width: 350px;
-  position: absolute; right: 65px;
-  padding-bottom: 0px;
+  width: 250px;
+  position: absolute;
+  right: 100px;
 }
 
 .Church {
   width: 250px;
-  position: absolute; left: 65px; 
+  position: absolute;
+  left: 100px;
 }
 #SFXCarousel {
   grid-column: span 12;
@@ -184,13 +189,15 @@ position: absolute; right: 65px;
     margin: 0 auto;
   }
   .screenshotaudio {
-    width: 350px; 
-  position: absolute; left: 65px;
+    width: 350px;
+    position: absolute;
+    left: 100px;
 
   }
   .screenshotmusic{
     width: 350px;
-    position: absolute; right: 65px
+    position: absolute;
+    right: 100px;
   }
   .videop {
     font-size: 20px;
